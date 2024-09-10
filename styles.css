@@ -1,3 +1,58 @@
-h1 {
-  color: green;
+html,
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 4628px;
+  font-family: 'Roboto';
+}
+
+#rectangle {
+  border: solid 1px black;
+  width: 1440px;
+  height: 60px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar {
+  border: solid 1px black;
+  width: 1110px;
+  height: 26px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 705px;
+}
+
+.nav-bar .group {
+  border: solid 1px black;
+  width: 245px;
+  height: 24px;
+
+  display: flex;
+  gap: 60px;
+  color: #505f98;
+}
+
+.nav-bar .group a {
+  color: #505F98;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nav-bar button {
+  width: 160px;
+  height: 26px;
+  background-color: #111b47;
+  border: none;
+  color: #ffffff;
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 18px;
 }
