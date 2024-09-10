@@ -5,21 +5,36 @@ body {
   padding: 0;
   width: 1440px;
   height: 4628px;
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  border: solid 2px black;
+  width: 1911.32px;
+  height: 1161px;
 }
 
 #rectangle {
-  border: solid 1px black;
-  width: 1440px;
+  position: relative;
+  /* width: 1440px; */
   height: 60px;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.logo {
+  color: #37447E;
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  font-size: 26px;
+  font-weight: 900;
+  font-style: normal;
+}
+
 .nav-bar {
-  border: solid 1px black;
   width: 1110px;
   height: 26px;
 
@@ -30,7 +45,6 @@ body {
 }
 
 .nav-bar .group {
-  border: solid 1px black;
   width: 245px;
   height: 24px;
 
@@ -40,10 +54,12 @@ body {
 }
 
 .nav-bar .group a {
-  color: #505F98;
+  color: #505f98;
   text-decoration: none;
   font-size: 16px;
   line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .nav-bar button {
@@ -55,4 +71,6 @@ body {
   border-radius: 2px;
   font-size: 12px;
   line-height: 18px;
+  font-weight: 500;
+  font-style: normal;
 }
