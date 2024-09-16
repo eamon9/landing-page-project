@@ -7,3 +7,11 @@ body {
   height: 4628px;
   font-family: "Roboto", sans-serif;
 }
+
+footer {
+  position: relative;
+  top: -133.39px;
+  width: 1440px;
+  height: 216px;
+  background-color: var(--footer-background-color);
+}

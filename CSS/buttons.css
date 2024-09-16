@@ -33,3 +33,7 @@ button.medium {
   font-size: 14px;
   line-height: 24px;
 }
+
+.pricing button.medium {
+  width: 189px;
+}
