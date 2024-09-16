@@ -1,0 +1,28 @@
+button {
+  /* border: 2px solid #091133; */
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--text-color-white);
+  border-radius: 2px;
+}
+
+button#whiteBtn {
+  border: 2px solid var(--text-color-dark-blue);
+  background-color: var(--background-color-max-transperacy);
+  color: var(--btn-border-color);
+  margin-left: 30.02px;
+}
+
+button.large {
+  width: 189px;
+  height: 36px;
+  font-size: 12px;
+  line-height: 26px;
+}
+
+button.small {
+  width: 160px;
+  height: 26px;
+  font-size: 12px;
+  line-height: 18px;
+}

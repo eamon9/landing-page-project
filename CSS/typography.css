@@ -1,0 +1,9 @@
+html,
+body {
+  background-color: var(--main-background-color);
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 4628px;
+  font-family: "Roboto", sans-serif;
+}

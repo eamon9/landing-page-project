@@ -9,48 +9,100 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
-  <link rel="stylesheet" href="/designer_1.css">
-  <link rel="stylesheet" href="/fonts.css">
+
+  <link rel="stylesheet" href="CSS/colors.css">
+  <link rel="stylesheet" href="CSS/typography.css">
+  <link rel="stylesheet" href="CSS/layout.css">
+  <link rel="stylesheet" href="CSS/buttons.css">
+  <link rel="stylesheet" href="CSS/fonts.css">
+  <link rel="stylesheet" href="CSS/styles.css">
+
   <title>Landing Page</title>
 </head>
 
 <body>
-  <div class="hero">
-    <div id="rectangle">
-      <div class="logo roboto-black">Landing</div>
-      <div class="nav-bar">
-        <div class="group">
-          <a class="roboto-regular" href="">Home</a>
-          <a class="roboto-regular" href="">About</a>
-          <a class="roboto-regular" href="">Contacts</a>
+  <main>
+    <section class="hero">
+      <header>
+        <div class="rectangle">
+          <div class="logo roboto-black">Landing</div>
+          <nav class="nav-bar">
+            <div class="nav-group">
+              <a class="roboto-regular" href="#">Home</a>
+              <a class="roboto-regular" href="#">About</a>
+              <a class="roboto-regular" href="#">Contacts</a>
+            </div>
+            <button id="btn" class="roboto-medium small">Buy Now</button>
+          </nav>
         </div>
-        <button id="btn" class="roboto-medium small">Buy Now</button>
+      </header>
+
+      <div class="split-section">
+        <div class="split left">
+          <div class="hero-content">
+            <h1 class="title-txt roboto-medium">Introduce Your Product Quickly & Effectively</h1>
+            <p class="body-txt roboto-regular">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+              ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            </p>
+            <button class="roboto-medium large">Purchase UI Kit</button>
+            <button class="roboto-medium large" id="whiteBtn">Learn More</button>
+          </div>
+        </div>
+        <div class="split right"></div>
       </div>
-    </div>
-    <div class="split-section">
-      <div class="split left">
-        <div class="hero-content">
-          <div class="title-txt roboto-medium">Introduce Your Product Quickly & Effectively</div>
-          <p class="body-txt roboto-regular">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-            ligula eget
-            dolor. Aenean massa. Cum sociis
-            natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br><br>
-            mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-          </p>
-          <button class="roboto-medium large"> Purchase UI Kit"</button>
-          <button class="roboto-medium large" id="whiteBtn">Learn More</button>
+    </section>
+    <section class="undraw_mobile_login_ikmv">
+      <div class="split-section">
+        <div class="split left">
+          <div class="mobile-login-content">
+            <section class="text-block">
+              <h1 class="title-txt roboto-medium">Light, Fast & Powerful</h1>
+              <p class="body-txt roboto-regular">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                massa. Cum sociis
+                natoque penatibus et magnis dis parturient montes, nascetur ridiculus<br><br>
+                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                enim.
+              </p>
+            </section>
+            <section class="cards">
+              <div class="card-element">
+                <div class="card">
+                  <img src="/assets/card-icon.svg" alt="">
+                </div>
+                <h1 class="title-txt roboto-medium">Title Goes Here</h1>
+                <p class="body-txt roboto-regular">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                </p>
+              </div>
+              <div class="card-element">
+                <div class="card">
+                  <img src="/assets/card-icon.svg" alt="">
+                </div>
+                <h1 class="title-txt roboto-medium">Title Goes Here</h1>
+                <p class="body-txt roboto-regular">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                </p>
+              </div>
+            </section>
+
+          </div>
+        </div>
+
+        <div class="split right">
+
         </div>
       </div>
-      <div class="split right">
-      </div>
+    </section>
     </div>
-  </div>
-  <div class="undraw_mobile_login_ikmv">
-    <div class="split-section">
-      <div class="split left"></div>
-    </div>
-  </div>
+  </main>
+
+  <footer>
+
+  </footer>
+
   <script src="/script.js"></script>
 </body>
 
