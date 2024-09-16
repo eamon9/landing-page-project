@@ -4,19 +4,13 @@
   position: relative;
   background-image: url("/assets/main-picture.svg");
   background-repeat: no-repeat;
-  /* background-size: 1072.74px 1161px; */
   background-size: 1490.03px 1161px;
-  /*  background-size: 1444px 1025px; */
   background-position: 421.29px -49px;
   /* overflow: hidden; */
 
   border: solid 2px black;
-  /* width: 1440px;
-  height: 1161px; */
   width: 1444px;
-  /* height: 1025px; */
   height: 1161px;
-  /* overflow: hidden; */
 }
 
 .rectangle {
@@ -68,7 +62,7 @@
 /* text areas */
 
 .text-block {
-  border: solid 2px rgb(85, 1, 29);
+  border: solid 2px rgb(0, 59, 168);
 }
 
 .title-txt {
@@ -133,11 +127,10 @@
 /* undraw_mobile_login_ikmv */
 
 .undraw_mobile_login_ikmv {
-  border: solid 2px rgb(85, 1, 29);
+  border: solid 2px black;
 
-  width: 1444px;
+  width: 1440px;
   height: 742px;
-  /* overflow: hidden; */
 }
 
 .undraw_mobile_login_ikmv .right {
@@ -167,8 +160,6 @@
 }
 
 .card-element {
-  border: solid 2px rgb(85, 1, 29);
-
   margin-top: 80px;
   width: 255px;
   height: 138px;
@@ -190,11 +181,10 @@
 /* section intro */
 
 .intro {
-  border: solid 2px rgb(85, 1, 29);
+  border: solid 2px black;
 
-  width: 1444px;
-  height: 742px;
-  /* overflow: hidden; */
+  width: 1440px;
+  height: 569px;
 }
 
 .intro .left {
@@ -212,4 +202,57 @@
 .intro .right .text-block .body-txt {
   line-height: 24px;
   margin-top: 16px;
+}
+
+/* section intro-copy */
+
+.intro-copy {
+  border: solid 2px black;
+
+  width: 1440px;
+  height: 569px;
+}
+
+.intro-copy .left {
+  background-image: url("/assets/undraw_social_influencer_sgsv.svg");
+  background-position: 191px center;
+  background-repeat: no-repeat;
+  background-size: 480px 315.85px;
+}
+
+.intro-copy .right .text-block {
+  width: 445px;
+  height: 228px;
+}
+
+.intro-copy .right .text-block .body-txt {
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+/* section cta */
+
+.cta {
+  border: solid 2px black;
+
+  width: 1440px;
+  height: 546px;
+}
+
+.cta .left {
+  background-image: url("/assets/undraw_mention_6k5d.svg");
+  background-position: 191px center;
+  background-repeat: no-repeat;
+  background-size: 480px 315.85px;
+}
+
+.cta .right .text-block {
+  width: 445px;
+  height: 228px;
+}
+
+.cta .right .text-block .body-txt {
+  line-height: 24px;
+  margin-top: 16px;
+  margin-bottom: 40px;
 }
