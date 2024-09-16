@@ -1,6 +1,3 @@
-@import url(/designer_1.css);
-@import url(/fonts.css);
-
 html,
 body {
   background-color: #f0f0f0;
@@ -12,15 +9,26 @@ body {
 }
 
 .hero {
+  position: relative;
+  background-image: url("/assets/main-picture.svg");
+  background-repeat: no-repeat;
+  /* background-size: 1072.74px 1161px; */
+  background-size: 1490.03px 1161px;
+  /*  background-size: 1444px 1025px; */
+  background-position: 421.29px -49px;
+  overflow: hidden;
+
   border: solid 2px black;
-  width: 1911.32px;
-  height: 1161px;
+  /* width: 1440px;
+  height: 1161px; */
+  width: 1444px;
+  height: 1025px;
   overflow: hidden;
 }
 
 #rectangle {
   position: relative;
-  /* width: 1440px; */
+  width: 1440px;
   height: 60px;
 
   display: flex;
@@ -63,13 +71,30 @@ body {
 }
 
 button {
-  border: 1px solid #091133;
-  width: 160px;
-  height: 26px;
+  /* border: 2px solid #091133; */
   background-color: #111b47;
   border: none;
   color: #ffffff;
   border-radius: 2px;
+}
+
+#whiteBtn {
+  border: 2px solid #091133;
+  background-color: #ffffff00;
+  color: #091133;
+  margin-left: 30.02px;
+}
+
+button.large {
+  width: 189px;
+  height: 36px;
+  font-size: 12px;
+  line-height: 26px;
+}
+
+button.small {
+  width: 160px;
+  height: 26px;
   font-size: 12px;
   line-height: 18px;
 }
@@ -84,8 +109,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-  box-sizing: border-box;
 }
 
 .left {
@@ -95,28 +118,33 @@ button {
 }
 
 .left .hero-content {
+  margin-left: 100px;
   width: 539.37px;
   height: 316px;
 }
 
 .left .hero-content .title-txt {
   font-size: 50px;
+  line-height: 66px;
   color: #091133;
+  margin-bottom: 20px;
 }
 
 .left .hero-content .body-txt {
   font-size: 18px;
-  color: #505F98;
+  line-height: 30px;
+  color: #505f98;
+  margin-bottom: 69px;
+  margin-top: 0;
 }
 
-#whiteBtn {
-  border: 1px solid #091133;
-  width: 160px;
-  height: 26px;
-  background-color: #FFFFFF;
-  color: #091133;
-  margin-left: 30px;
-}
+.undraw_mobile_login_ikmv {
+  position: relative;
+  background-repeat: no-repeat;
 
-.right {
+  border: solid 2px rgb(85, 1, 29);
+
+  width: 1444px;
+  height: 742px;
+  overflow: hidden;
 }
