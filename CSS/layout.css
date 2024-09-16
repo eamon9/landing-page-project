@@ -7,8 +7,6 @@
   background-size: 1490.03px 1161px;
   background-position: 421.29px -49px;
   /* overflow: hidden; */
-
-  border: solid 2px black;
   width: 1444px;
   height: 1161px;
 }
@@ -62,7 +60,6 @@
 /* text areas */
 
 .text-block {
-  border: solid 2px rgb(0, 59, 168);
 }
 
 .title-txt {
@@ -127,8 +124,6 @@
 /* undraw_mobile_login_ikmv */
 
 .undraw_mobile_login_ikmv {
-  border: solid 2px black;
-
   width: 1440px;
   height: 742px;
 }
@@ -181,8 +176,6 @@
 /* section intro */
 
 .intro {
-  border: solid 2px black;
-
   width: 1440px;
   height: 569px;
 }
@@ -207,8 +200,6 @@
 /* section intro-copy */
 
 .intro-copy {
-  border: solid 2px black;
-
   width: 1440px;
   height: 569px;
 }
@@ -233,8 +224,6 @@
 /* section cta */
 
 .cta {
-  border: solid 2px black;
-
   width: 1440px;
   height: 546px;
 }
@@ -260,8 +249,6 @@
 /* section pricing */
 
 .pricing {
-  border: solid 2px black;
-
   background-image: url("/assets/rectangle.svg");
   background-repeat: no-repeat;
   background-size: 2546.93px 938px;
@@ -332,4 +319,34 @@
   margin-bottom: 9.03px;
 }
 
+footer .rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+  height: 38px;
+  top: 61px;
+  gap: 868px;
+}
+
+footer .rectangle .logo {
+  top: 4px;
+}
+
+footer .c-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #939EA4;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 85px;
+}
+
+.line img{
+  width: 1110px;
+  height: 2px;
+}

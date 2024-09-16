@@ -37,3 +37,11 @@ button.medium {
 .pricing button.medium {
   width: 189px;
 }
+
+footer button.small {
+  width: 109px;
+  height: 26px;
+  font-size: 12px;
+  line-height: 18px;
+  /* margin-right: 165px; */
+}
