@@ -21,7 +21,7 @@
 }
 
 .logo {
-  color: #37447e;
+  color: var(--landie-color);
   position: absolute;
   top: 12px;
   left: 50%;
@@ -46,11 +46,10 @@
 
   display: flex;
   gap: 60px;
-  color: #555f95;
 }
 
 .nav-bar .nav-group a {
-  color: #555f95;
+  color: var(--n1-nav-bar-text-color);
   text-decoration: none;
   font-size: 16px;
   line-height: 24px;
@@ -65,13 +64,13 @@
   margin: 0;
   font-size: 36px;
   line-height: 48px;
-  color: var(--text-color-dark-blue);
+  color: var(--title-color);
 }
 
 .body-txt {
   font-size: 16px;
   line-height: 24px;
-  color: var(--paragraph-color);
+  color: var(--n2-paragraph-color);
 }
 
 /* split-section */
@@ -109,7 +108,7 @@
 .left .hero-content .body-txt {
   font-size: 18px;
   line-height: 30px;
-  color: #505f98;
+  color: var(--n2-paragraph-color);
   margin-bottom: 69px;
   margin-top: 0;
 }
@@ -168,7 +167,7 @@
 .card-element .body-txt {
   font-size: 12px;
   line-height: 18px;
-  color: #5d6970;
+  color: var(--n2-paragraph-color);
   margin-top: 6px;
 }
 
@@ -273,7 +272,7 @@
 }
 
 .pricing .text-block .title-txt {
-  color: #091133;
+  color: var(--title-color);
 }
 
 .pricing .text-block .body-txt {
@@ -290,7 +289,7 @@
   height: 66px;
   font-size: 50px;
   line-height: 66px;
-  color: #222f65;
+  color: var(--price-color);
   margin-top: 35.82px;
 }
 
@@ -302,7 +301,7 @@
   height: 26px;
   font-size: 16px;
   line-height: 26px;
-  color: #37447e;
+  color: var(--title-color);
 }
 
 .pricing .body {
@@ -313,7 +312,7 @@
   height: 24px;
   font-size: 14px;
   line-height: 26px;
-  color: #5d6970;
+  color: var(--card-paragraph-color);
   margin-top: 60px;
   margin-bottom: 9.03px;
 }
@@ -344,7 +343,7 @@ footer .line {
   height: 1px;
   top: 139px;
   left: 165px;
-  background-color: #cdd1d4;
+  background-color: var(--footer-line-background-color);
 }
 
 footer nav {
