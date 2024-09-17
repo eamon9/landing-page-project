@@ -17,6 +17,9 @@ footer {
   width: 1440px;
   height: 216px;
   background-color: var(--footer-background-color);
+
+  border-left: 1px solid;
+  border-right: 1px solid;
 }
 
 a {

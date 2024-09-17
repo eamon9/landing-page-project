@@ -6,8 +6,11 @@
   background-repeat: no-repeat;
   background-size: 1490.03px 1161px;
   background-position: 421.29px -49px;
-  width: 1444px;
+  width: 1440px; /* 1444px mask */
   height: 1161px;
+  
+  border-left: 1px solid;
+  border-right: 1px solid;
 }
 
 .rectangle {
@@ -119,6 +122,10 @@
 .undraw_mobile_login_ikmv {
   width: 1440px;
   height: 742px;
+
+
+  border-left: 1px solid;
+  border-right: 1px solid;
 }
 
 .undraw_mobile_login_ikmv .right {
@@ -170,6 +177,9 @@
 .intro {
   width: 1440px;
   height: 569px;
+
+  border-left: 1px solid;
+  border-right: 1px solid;
 }
 
 .intro .left {
@@ -194,6 +204,9 @@
 .intro-copy {
   width: 1440px;
   height: 569px;
+
+  border-left: 1px solid;
+  border-right: 1px solid;
 }
 
 .intro-copy .left {
@@ -218,6 +231,9 @@
 .cta {
   width: 1440px;
   height: 546px;
+
+  border-left: 1px solid;
+  border-right: 1px solid;
 }
 
 .cta .left {
@@ -254,6 +270,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  border-left: 1px solid;
+  border-right: 1px solid;
 }
 
 .pricing .text-block {
