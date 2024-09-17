@@ -24,7 +24,6 @@
   color: var(--landie-color);
   position: absolute;
   top: 12px;
-  left: 50%;
   font-size: 26px;
 }
 
@@ -48,17 +47,11 @@
   gap: 60px;
 }
 
-.nav-bar .nav-group a {
+.hero .nav-bar .nav-group a {
   color: var(--n1-nav-bar-text-color);
-  text-decoration: none;
-  font-size: 16px;
-  line-height: 24px;
 }
 
 /* text areas */
-
-.text-block {
-}
 
 .title-txt {
   margin: 0;
@@ -91,10 +84,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 165px;
 }
 
 .left .hero-content {
-  margin-left: 100px;
+  top: 150px;
   width: 539.37px;
   height: 316px;
 }
@@ -117,6 +111,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 165px;
 }
 
 /* undraw_mobile_login_ikmv */
@@ -130,8 +125,7 @@
   background-image: url("/assets/mobile-login.svg");
   background-repeat: no-repeat;
   background-size: 540px 524.31px;
-  right: 165px;
-  top: 109.65px;
+  background-position: center;
 }
 
 .undraw_mobile_login_ikmv .text-block {
@@ -180,7 +174,7 @@
 
 .intro .left {
   background-image: url("/assets/undraw_happy_news_hxmt.svg");
-  background-position: 191px center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 480px 315.85px;
 }
@@ -204,7 +198,7 @@
 
 .intro-copy .left {
   background-image: url("/assets/undraw_social_influencer_sgsv.svg");
-  background-position: 191px center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 480px 315.85px;
 }
@@ -228,7 +222,7 @@
 
 .cta .left {
   background-image: url("/assets/undraw_mention_6k5d.svg");
-  background-position: 191px center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 480px 315.85px;
 }
@@ -269,10 +263,6 @@
   place-items: center;
   text-align: center;
   /* margin-top: 237.61px; */
-}
-
-.pricing .text-block .title-txt {
-  color: var(--title-color);
 }
 
 .pricing .text-block .body-txt {
@@ -344,11 +334,16 @@ footer .line {
   top: 139px;
   left: 165px;
   background-color: var(--footer-line-background-color);
+  background-position: center;
 }
 
 footer nav {
   margin-top: 135px;
   margin-bottom: 32px;
+}
+
+footer nav a {
+  color: var(--n2-nav-bar-text-color);
 }
 
 .social-icons {
