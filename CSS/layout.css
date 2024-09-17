@@ -339,14 +339,11 @@ footer .c-text {
   color: #939EA4;
 }
 
-.line {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 85px;
-}
-
-.line img{
+footer .line {
+  position: absolute;
   width: 1110px;
-  height: 2px;
+  height: 1px;
+  top: 139px;
+  left: 165px;
+  background-color: #CDD1D4;
 }
