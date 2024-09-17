@@ -18,8 +18,8 @@ footer {
   height: 216px;
   background-color: var(--footer-background-color);
 
-  border-left: 1px solid;
-  border-right: 1px solid;
+  border-left: var(--bordr-left);
+  border-right: var(--border-right);
 }
 
 a {

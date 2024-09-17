@@ -1,3 +1,8 @@
+:root {
+  --border-right: 5px solid;
+  --bordr-left: 5px solid;
+}
+
 /* hero */
 
 .hero {
@@ -8,9 +13,9 @@
   background-position: 421.29px -49px;
   width: 1440px; /* 1444px mask */
   height: 1161px;
-  
-  border-left: 1px solid;
-  border-right: 1px solid;
+
+  border-left: var(--bordr-left);
+  border-right: var(--border-right);
 }
 
 .rectangle {
@@ -123,9 +128,8 @@
   width: 1440px;
   height: 742px;
 
-
-  border-left: 1px solid;
-  border-right: 1px solid;
+  border-left: var(--bordr-left);
+  border-right: var(--border-right);
 }
 
 .undraw_mobile_login_ikmv .right {
@@ -178,8 +182,8 @@
   width: 1440px;
   height: 569px;
 
-  border-left: 1px solid;
-  border-right: 1px solid;
+  border-left: var(--bordr-left);
+  border-right: var(--border-right);
 }
 
 .intro .left {
@@ -205,8 +209,8 @@
   width: 1440px;
   height: 569px;
 
-  border-left: 1px solid;
-  border-right: 1px solid;
+  border-left: var(--bordr-left);
+  border-right: var(--border-right);
 }
 
 .intro-copy .left {
@@ -232,8 +236,8 @@
   width: 1440px;
   height: 546px;
 
-  border-left: 1px solid;
-  border-right: 1px solid;
+  border-left: var(--bordr-left);
+  border-right: var(--border-right);
 }
 
 .cta .left {
@@ -271,8 +275,8 @@
   justify-content: center;
   flex-direction: column;
 
-  border-left: 1px solid;
-  border-right: 1px solid;
+  border-left: var(--bordr-left);
+  border-right: var(--border-right);
 }
 
 .pricing .text-block {
