@@ -6,7 +6,6 @@
   background-repeat: no-repeat;
   background-size: 1490.03px 1161px;
   background-position: 421.29px -49px;
-  /* overflow: hidden; */
   width: 1444px;
   height: 1161px;
 }
@@ -47,11 +46,11 @@
 
   display: flex;
   gap: 60px;
-  color: #505f98;
+  color: #555f95;
 }
 
 .nav-bar .nav-group a {
-  color: #505f98;
+  color: #555f95;
   text-decoration: none;
   font-size: 16px;
   line-height: 24px;
@@ -336,7 +335,7 @@ footer .rectangle .logo {
 footer .c-text {
   font-size: 14px;
   line-height: 24px;
-  color: #939EA4;
+  color: #939ea4;
 }
 
 footer .line {
@@ -345,5 +344,46 @@ footer .line {
   height: 1px;
   top: 139px;
   left: 165px;
-  background-color: #CDD1D4;
+  background-color: #cdd1d4;
+}
+
+footer nav {
+  margin-top: 135px;
+  margin-bottom: 32px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 30px;
+  margin-left: -165px;
+}
+
+.icon-instagram {
+  width: 16px;
+  height: 16px;
+  background: url(/assets/Instagram.svg);
+}
+
+.icon-youtube {
+  width: 16px;
+  height: 16px;
+  background: url(/assets/Instagram\ Copy.svg);
+}
+
+.icon-twitter {
+  width: 16px;
+  height: 16px;
+  background: url(/assets/Instagram\ Copy\ 2.svg);
+}
+
+.icon-linkedin {
+  width: 16px;
+  height: 16px;
+  background: url(/assets/Instagram\ Copy\ 3.svg);
+}
+
+.icon-facebook {
+  width: 16px;
+  height: 16px;
+  background: url(/assets/Instagram\ Copy\ 4.svg);
 }
